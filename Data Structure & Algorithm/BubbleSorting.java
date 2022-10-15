@@ -1,9 +1,8 @@
-import java.util.Scanner;
 import java.util.Arrays;
 
 public class BubbleSorting{
 
-    static void BubbleSort(int arr[])
+    static void bubblesort(int arr[])
     {
         for(int i=0; i<(arr.length - 1); i++)
         {
@@ -26,9 +25,8 @@ public class BubbleSorting{
     }
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
         int []Array = {9,1,31,7,4,1,5};
-        BubbleSort(Array);
+        bubblesort(Array);
 
     }
 }
