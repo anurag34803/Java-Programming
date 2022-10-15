@@ -1,9 +1,8 @@
-import java.util.Scanner;
 import java.util.Arrays;
 
 public class SelectionSorting{
 
-    static void SelectionSort(int arr[])
+    static void selectionsort(int arr[])
     {
         for(int i=0;i<arr.length-1;i++)
         {
@@ -23,10 +22,9 @@ public class SelectionSorting{
 
     }
 
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+    public static void main(String[] args){
         int []Array = {9,1,31,7,1,4,3,5};
-        SelectionSort(Array);
+        selectionsort(Array);
 
     }
 }
