@@ -10,6 +10,9 @@ public class MergeSort{
 
        while(i<=mid && j<=ei)
         {
+            // if (ar[i] > ar[j]) for sort array in descending order
+           
+           // for sort array in ascending order
             if (ar[i] < ar[j])
             {
                 new_arr[k] = ar[i];
